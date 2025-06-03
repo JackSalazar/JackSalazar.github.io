@@ -8,7 +8,7 @@ listing:
   categories: true
   sort-ui: false  
   filter-ui: false
-  image-placeholder: "*/200px-Debugempty.*png" 
+  image-placeholder: "200px-Debugempty.png" 
 page-layout: full
 title-block-banner: true
 ---
