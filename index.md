@@ -1,7 +1,7 @@
 ---
-title: "Pizza!"
+title: "Welcome!"
 ---
 
-This is a Quarto website.
+This is a collection of some projects I've worked on, alongside experiences going through my cyber security and programming journey.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Enjoy :P
