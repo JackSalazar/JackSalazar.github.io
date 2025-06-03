@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -366,96 +366,68 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZmlsdGVyMiUyQ2ZpbHRlcjM=" data-listing-date-sort="1708646400000" data-listing-file-modified-sort="1748947655563" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail"><a href="../blog/markdown/index.html" class="no-external">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<th>
+Date
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/markdown/index.html" class="no-external">Markdown formatting</a>
-</h3>
-<div class="listing-categories">
+<th>
+Title
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
+<th>
+Author
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMw=='); return false;">filter3</div>
+</tr>
+</thead>
+<tbody class="list">
 
-</div>
-<div class="delink listing-description"><a href="../blog/markdown/index.html" class="no-external">
-<p>description</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/markdown/index.html" class="no-external">
-<div class="listing-date">
-Feb 23, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZmlsdGVyMSUyQ2ZpbHRlcjI=" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1748947655563" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
-<div class="thumbnail"><a href="../blog/qmd/index.html" class="no-external">
+<tr data-index="0" data-categories="ZmlsdGVyMiUyQ2ZpbHRlcjM=" data-listing-date-sort="1708646400000" data-listing-file-modified-sort="1748955410975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173" data-listing-title-sort="Markdown formatting" data-listing-filename-sort="index.md">
+<td>
+<span class="listing-date">Feb 23, 2024</span>
+</td>
+<td>
+<a href="../blog/markdown/index.html" class="title listing-title">Markdown formatting</a>
+</td>
+<td>
+<span class="listing-author">&nbsp;</span>
+</td>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</tr>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/qmd/index.html" class="no-external">.qmd and python jupyter blocks</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="1" data-categories="ZmlsdGVyMSUyQ2ZpbHRlcjI=" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1748955410975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="379" data-listing-title-sort=".qmd and python jupyter blocks" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Feb 20, 2024</span>
+</td>
+<td>
+<a href="../blog/qmd/index.html" class="title listing-title">.qmd and python jupyter blocks</a>
+</td>
+<td>
+<span class="listing-author">&nbsp;</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMQ=='); return false;">filter1</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
+<tr data-index="2" data-categories="ZmlsdGVyMSUyQ2ZpbHRlcjI=" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1748955410975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95" data-listing-title-sort="About Quarto" data-listing-filename-sort="index.md">
+<td>
+<span class="listing-date">Feb 20, 2024</span>
+</td>
+<td>
+<a href="../blog/quarto/index.html" class="title listing-title">About Quarto</a>
+</td>
+<td>
+<span class="listing-author">&nbsp;</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="../blog/qmd/index.html" class="no-external">
-<p>description</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/qmd/index.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZmlsdGVyMSUyQ2ZpbHRlcjI=" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1748947655563" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<div class="thumbnail"><a href="../blog/quarto/index.html" class="no-external">
+</tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/quarto/index.html" class="no-external">About Quarto</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMQ=='); return false;">filter1</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/quarto/index.html" class="no-external">
-<p>description</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/quarto/index.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
