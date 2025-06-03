@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://JackSalazar.github.io/blog/quarto/index.html</loc>
-    <lastmod>2025-04-19T22:03:04.136Z</lastmod>
+    <loc>https://JackSalazar.github.io/index.html</loc>
+    <lastmod>2025-06-03T10:46:17.022Z</lastmod>
   </url>
   <url>
     <loc>https://JackSalazar.github.io/blog/qmd/index.html</loc>
-    <lastmod>2025-04-19T22:03:04.136Z</lastmod>
-  </url>
-  <url>
-    <loc>https://JackSalazar.github.io/index.html</loc>
-    <lastmod>2025-04-19T22:03:04.136Z</lastmod>
+    <lastmod>2025-06-03T10:46:17.022Z</lastmod>
   </url>
   <url>
     <loc>https://JackSalazar.github.io/blog/markdown/index.html</loc>
-    <lastmod>2025-04-19T22:03:04.136Z</lastmod>
+    <lastmod>2025-06-03T10:46:17.021Z</lastmod>
   </url>
   <url>
     <loc>https://JackSalazar.github.io/blog/index.html</loc>
-    <lastmod>2025-04-19T22:03:04.136Z</lastmod>
+    <lastmod>2025-06-03T10:46:17.021Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JackSalazar.github.io/blog/quarto/index.html</loc>
+    <lastmod>2025-06-03T10:46:17.022Z</lastmod>
   </url>
 </urlset>
