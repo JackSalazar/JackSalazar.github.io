@@ -8,6 +8,7 @@ listing:
   categories: true
   sort-ui: false  
   filter-ui: false
+  #image-placeholder: 
 page-layout: full
 title-block-banner: true
 ---
