@@ -4,7 +4,7 @@ listing:
   contents:
     - "*/index.*md"
   sort: "date desc"
-  type: table # See 
+  type: grid # See 
   categories: true
   sort-ui: false  
   filter-ui: false
