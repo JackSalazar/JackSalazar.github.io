@@ -1,6 +1,7 @@
 project:
   type: website
-
+  resources:
+      - "static/*"
 website:
   title: "JackSalazar"
   navbar:
@@ -9,8 +10,7 @@ website:
         text: Home
       - href: blog/index.qmd
         text: Blog
-resources:
-      - "static/*"
+
 format:
   html:
     theme:
