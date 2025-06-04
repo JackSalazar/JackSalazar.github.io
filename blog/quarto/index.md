@@ -4,6 +4,7 @@ date: 2024-2-20
 description: description
 categories: ['filter1', 'filter2']
 draft: false # Change to true to not render the post in on the website
+image: "/blog/images/quarto.jpg"
 ---
 
 
