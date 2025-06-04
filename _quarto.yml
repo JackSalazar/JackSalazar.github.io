@@ -2,7 +2,7 @@ project:
   type: website
   #resources:
   #    - "static/**"
-  #Static doesn't work for some reason. just use resources to resolve the issue.
+  #Static doesn't auto detect for some reason. Just use resources to resolve the issue. Resources also lets you name the directory whatever you want.
   
 website:
   title: "JackSalazar"
