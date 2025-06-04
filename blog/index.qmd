@@ -1,5 +1,7 @@
 ---
 title: "Blog"
+resources:
+    - "images/*"
 listing:
   contents:
     - "*/index.*md"
