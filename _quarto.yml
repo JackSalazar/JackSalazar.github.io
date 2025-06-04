@@ -7,9 +7,10 @@ website:
     left:
       - href: index.md
         text: Home
-      - href: blog/index.md
+      - href: blog/index.qmd
         text: Blog
-
+resources:
+      - "static/*"
 format:
   html:
     theme:
