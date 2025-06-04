@@ -9,7 +9,7 @@ website:
     left:
       - href: index.md
         text: Home
-      - href: blog/index.qmd
+      - href: blog/index.md
         text: Blog
 
 format:
