@@ -4,11 +4,11 @@ listing:
   contents:
     - "*/index.*md"
   sort: "date desc"
-  type: grid # See 
+  type: grid
   categories: true
   sort-ui: false  
   filter-ui: false
-  image-placeholder: blog/imgplaceholder.png
+  image-placeholder: "/blog/imgplaceholder.png"
 page-layout: full
 title-block-banner: true
 ---
