@@ -1,7 +1,7 @@
 project:
   type: website
   resources:
-      - "static/*"
+      - "static/**"
 website:
   title: "JackSalazar"
   navbar:
