@@ -2,6 +2,7 @@ project:
   type: website
   #resources:
   #    - "static/**"
+  #Static doesn't work for some reason. just use resources to resolve the issue.
   
 website:
   title: "JackSalazar"
