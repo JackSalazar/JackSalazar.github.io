@@ -6,6 +6,7 @@ categories: ['filter1', 'filter2']
 draft: false # Change to true to not render the post in on the website
 execute:
     freeze: false
+image: /blog/images/qmd.webp
 ---
 
 # What are qmd files?
