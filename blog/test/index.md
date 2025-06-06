@@ -1,9 +1,9 @@
 ---
 title: Test for adding a new post
 date: 2025-06-06
-description: description
+description: You shouldn't see this
 categories: ['Test']
-draft: false # Change to true to not render the post in on the website
+draft: true # Change to true to not render the post in on the website
 #image: " "
 ---
 
