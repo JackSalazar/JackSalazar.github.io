@@ -65,7 +65,7 @@
   {
     "objectID": "blog/test/index.html",
     "href": "blog/test/index.html",
-    "title": "Markdown formatting",
+    "title": "Test for adding a new post",
     "section": "",
     "text": "This is a test"
   },
@@ -74,7 +74,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Markdown formatting\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\nMarkdown formatting\n\n\n\nTest\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n.qmd and python jupyter blocks\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Quarto\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Markdown formatting\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\nTest for adding a new post\n\n\n\nTest\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n.qmd and python jupyter blocks\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Quarto\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/quarto/index.html",
