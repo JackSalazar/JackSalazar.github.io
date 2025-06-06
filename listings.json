@@ -2,7 +2,6 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/test/index.html",
       "/blog/markdown/index.html",
       "/blog/qmd/index.html",
       "/blog/quarto/index.html"
