@@ -63,11 +63,18 @@
     "text": "Code Blocks\nIt’s possible to do code blocks with langauge highlighting.\nThis:\n\\`\\`\\`{.python}\nprint(\"hellow world!\")\n\ndef testfunction(input):\n    print(\"Hi!\")\n\\`\\`\\`\nResults in:\nprint(\"hellow world!\")\n\ndef testfunction(input):\n    print(\"Hi!\")\nMany, many languages are supported and can be highlighted.\nImages:\n![alt text](https://quarto.org/quarto.png)\n\n\n\nalt text\n\n\nOf course, this is an external image. You an also store images in the repository, and then refer to them by the relative file path. Something like:\n![](../image.png)\nWhere .. goes up one directory, and then you can refer to files by their file path.\nMore information about markdown: https://quarto.org/docs/authoring/markdown-basics.html"
   },
   {
+    "objectID": "blog/test/index.html",
+    "href": "blog/test/index.html",
+    "title": "Markdown formatting",
+    "section": "",
+    "text": "This is a test"
+  },
+  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Markdown formatting\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n.qmd and python jupyter blocks\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Quarto\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Markdown formatting\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\nMarkdown formatting\n\n\n\nTest\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n.qmd and python jupyter blocks\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Quarto\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/quarto/index.html",
