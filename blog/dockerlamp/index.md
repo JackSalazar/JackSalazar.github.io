@@ -9,12 +9,18 @@ draft: false # Change to true to not render the post in on the website
 
 
 The goal provided is as follows:
+
 Create a new machine and create a LAMP stack in a container. Any container will do, but for this documentation, docker will be used.
 For this, you will need the following applications:
+
 Docker: Container
+
 **L**   inux: The operating system used, which in this case will be alpine
+
 **A**  pache2: The http server to access the website in the first place
+
 **M** ySQL: The database which has all the data of the website
+
 **P**  HP: The scripting language
 
 ### Setting up Alpine
