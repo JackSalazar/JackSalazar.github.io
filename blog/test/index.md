@@ -1,5 +1,5 @@
 ---
-title: Markdown formatting
+title: Test for adding a new post
 date: 2024-2-23
 description: description
 categories: ['Test']
