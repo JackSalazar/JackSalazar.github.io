@@ -2,7 +2,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/DockerLAMP/index.html",
+      "/blog/dockerlamp/index.html",
       "/blog/markdown/index.html",
       "/blog/qmd/index.html",
       "/blog/quarto/index.html"
