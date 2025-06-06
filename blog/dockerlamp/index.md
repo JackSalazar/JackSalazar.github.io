@@ -27,11 +27,11 @@ Docker: Container
 Step 1 is of course to set up alpine in the first place
 
 log in as root
-```
+```bash
 root
 ```
 To save yourself from struggling, just follow the set up executable
-```
+```bash
 setup-alpine
 ```
 
@@ -66,23 +66,23 @@ Note: The link for the alpine repository is subject to change. Replace v3.20 wit
 ## Installing proper Packages
 
 First, modify /etc/apk/repositories 
-```
+```bash
 vi /etc/apk/repositories
 ```
 In there, add the following line
-```
+```bash
 https://dl-cdn.alpinelinux.org/alpine/v3.20/community
 ```
 
 Save, then proceed to update and upgrade the repositories
 
-```
+```bash
 apk update && apk upgrade
 ```
 
 From here, you can now download docker
 
-```
+```bash
 apk add docker
 ```
 
@@ -90,18 +90,18 @@ apk add docker
 
 By default, the service isn't enabled nor started, so enter the following
 
-```
+```bash
 rc-update add docker default
 openrc --service docker start
 ```
 
 Now, you could go through the pain and troubleshooting of making your own LAMP stack, or you can just take it from the dockerhub
 
-```
+```bash
 docker pull fauria/lamp
 ```
 
-```
+```bash
 docker run -itp 80:80 fauria/lamp /bin/bash
 ```
 
@@ -110,7 +110,7 @@ docker run -itp 80:80 fauria/lamp /bin/bash
 You'll find yourself in the docker container. 
 From here, you need to start apache2
 
-```
+```bash
 service apache2 start
 ```
 
