@@ -372,9 +372,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="setting-up-alpine">Setting up Alpine</h3>
 <p>Step 1 is of course to set up alpine in the first place</p>
 <p>log in as root</p>
-<pre><code>root</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">root</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>To save yourself from struggling, just follow the set up executable</p>
-<pre><code>setup-alpine</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">setup-alpine</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>From here, it guides you through the whole setup process. Here’s an example of the commands you should enter</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">us</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">us</span></span>
@@ -403,27 +403,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="installing-proper-packages" class="level2">
 <h2 class="anchored" data-anchor-id="installing-proper-packages">Installing proper Packages</h2>
 <p>First, modify /etc/apk/repositories</p>
-<pre><code>vi /etc/apk/repositories</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">vi</span> /etc/apk/repositories</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>In there, add the following line</p>
-<pre><code>https://dl-cdn.alpinelinux.org/alpine/v3.20/community</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">https://dl-cdn.alpinelinux.org/alpine/v3.20/community</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Save, then proceed to update and upgrade the repositories</p>
-<pre><code>apk update &amp;&amp; apk upgrade</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">apk</span> update <span class="kw">&amp;&amp;</span> <span class="ex">apk</span> upgrade</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>From here, you can now download docker</p>
-<pre><code>apk add docker</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">apk</span> add docker</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="configuring-docker" class="level2">
 <h2 class="anchored" data-anchor-id="configuring-docker">Configuring Docker</h2>
 <p>By default, the service isn’t enabled nor started, so enter the following</p>
-<pre><code>rc-update add docker default
-openrc --service docker start</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rc-update</span> add docker default</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">openrc</span> <span class="at">--service</span> docker start</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Now, you could go through the pain and troubleshooting of making your own LAMP stack, or you can just take it from the dockerhub</p>
-<pre><code>docker pull fauria/lamp</code></pre>
-<pre><code>docker run -itp 80:80 fauria/lamp /bin/bash</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> pull fauria/lamp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-itp</span> 80:80 fauria/lamp /bin/bash</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="inside-the-container" class="level2">
 <h2 class="anchored" data-anchor-id="inside-the-container">Inside the Container</h2>
 <p>You’ll find yourself in the docker container. From here, you need to start apache2</p>
-<pre><code>service apache2 start</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">service</span> apache2 start</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>From here, you can access the website from the original machine’s ip</p>
 
 
