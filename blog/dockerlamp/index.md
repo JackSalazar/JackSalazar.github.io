@@ -37,7 +37,7 @@ setup-alpine
 
 From here, it guides you through the whole setup process. Here's an example of the commands you should enter
 
-```
+```bash
 us
 us
 [hostname]
