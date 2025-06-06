@@ -18,7 +18,7 @@
     "href": "blog/dockerlamp/index.html",
     "title": "Dockerized LAMP Stack",
     "section": "",
-    "text": "The goal provided is as follows: Create a new machine and create a LAMP stack in a container. Any container will do, but for this documentation, docker will be used. For this, you will need the following applications: Docker: Container L inux: The operating system used, which in this case will be alpine A pache2: The http server to access the website in the first place M ySQL: The database which has all the data of the website P HP: The scripting language"
+    "text": "The goal provided is as follows:\nCreate a new machine and create a LAMP stack in a container. Any container will do, but for this documentation, docker will be used. For this, you will need the following applications:\nDocker: Container\nL inux: The operating system used, which in this case will be alpine\nA pache2: The http server to access the website in the first place\nM ySQL: The database which has all the data of the website\nP HP: The scripting language"
   },
   {
     "objectID": "blog/dockerlamp/index.html#installing-proper-packages",
