@@ -5,19 +5,24 @@ project:
   #Static doesn't auto detect for some reason. Just use resources to resolve the issue. Resources also lets you name the directory whatever you want.
   
 website:
-  title: "JackSalazar"
+  title: "Jack Salazar"
   navbar:
     left:
       - href: index.md
         text: Home
       - href: blog/index.md
         text: Blog
+    right: 
+      - href: contact/index.md
+        text: Contact
+      - icon: github
+        href: https://github.com/JackSalazar
 
 format:
   html:
     theme:
       # See: https://quarto.org/docs/output-formats/html-themes.html
-      light: cerulean
+      light: spacelab
       dark: cyborg
     css: styles.css
     toc: true
