@@ -2,8 +2,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/dockerlamp/index.html",
-      "/blog/markdown/index.html"
+      "/blog/dockerlamp/index.html"
     ]
   }
 ]
