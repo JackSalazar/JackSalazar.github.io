@@ -95,13 +95,6 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Dockerized LAMP Stack\n\n\n\nTutorial\n\n\n\nThis will guide you in creating a LAMP Stack inside Docker from scratch.\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarkdown formatting\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n.qmd and python jupyter blocks\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Quarto\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/quarto/index.html",
-    "href": "blog/quarto/index.html",
-    "title": "About Quarto",
-    "section": "",
-    "text": "Quarto is the static site generator used to render this site.\nIt’s documentation is very extensive, and worth reading.\nInteresting/Important bits:\nQuarto has a built in category system\nThis enables users to filter documents by types.\nTheming: https://quarto.org/docs/output-formats/html-themes.html\nAt the top right of this page, there is a toggle between light and dark theme. You can edit the _quarto.yml file to edit the themes used.\nPlugins/Extensions: https://quarto.org/docs/extensions/\nPlugins add functionality to quarto, like being able to embed QR Codes.\nWeb based slides: https://quarto.org/docs/presentations/revealjs/\nI used Reveal JS slides for the presentation\nUnder the hood, Quarto uses Pandoc and supports all of it’s features."
+    "text": "Dockerized LAMP Stack\n\n\n\nTutorial\n\n\n\nThis will guide you in creating a LAMP Stack inside Docker from scratch.\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarkdown formatting\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n.qmd and python jupyter blocks\n\n\n\nWeb Info\n\nTutorial\n\n\n\ndescription\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]
