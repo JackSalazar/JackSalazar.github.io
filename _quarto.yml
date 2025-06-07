@@ -17,8 +17,8 @@ format:
   html:
     theme:
       # See: https://quarto.org/docs/output-formats/html-themes.html
-      light: default
-      dark: cerulean
+      light: cerulean
+      dark: cyborg
     css: styles.css
     toc: true
 
