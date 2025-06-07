@@ -15,14 +15,14 @@ website:
     right: 
       - href: contact/index.md
         text: Contact
-      - icon: github
-        href: https://github.com/JackSalazar
+      #- icon: github
+      #  href: https://github.com/JackSalazar
 
 format:
   html:
     theme:
       # See: https://quarto.org/docs/output-formats/html-themes.html
-      light: spacelab
+      light: default
       dark: cyborg
     css: styles.css
     toc: true
