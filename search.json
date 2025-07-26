@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "blog/RocketChat/test.html",
+    "href": "blog/RocketChat/test.html",
+    "title": "Jack Salazar",
+    "section": "",
+    "text": "test"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
     "text": "This is a collection of some projects I’ve worked on, alongside experiences going through my cyber security and programming journey.\nEnjoy :P"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Dockerized LAMP Stack\n\n\n\nTutorial\n\n\n\nThis will guide you in creating a LAMP Stack inside Docker from scratch.\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/dockerlamp/index.html",
@@ -33,12 +47,5 @@
     "title": "Dockerized LAMP Stack",
     "section": "Inside the Container",
     "text": "Inside the Container\nYou’ll find yourself in the docker container. From here, you need to start apache2\nservice apache2 start\nFrom here, you can access the website from the original machine’s ip"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Dockerized LAMP Stack\n\n\n\nTutorial\n\n\n\nThis will guide you in creating a LAMP Stack inside Docker from scratch.\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
