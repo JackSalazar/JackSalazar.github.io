@@ -8,110 +8,73 @@ image: ""
 ---
 
 
-The goal provided is as follows:
+### Preface
+When using Linux, you may come across an application with the extension .AppImage. It is an all in one application that works on any Linux distro, but there are a couple of issues. One of which is that the app won't automatically show up in desktop searches. Luckily, all it takes is 5 minutes to fix this.
+## Method 1: Terminal
 
-Create a new machine and create a LAMP stack in a container. Any container will do, but for this documentation, docker will be used.
-For this, you will need the following applications:
+The first step is optional, but good practice for organizing files. Move the **.AppImage** from your Downloads folder to the correct location. This location varies based on if you want the application to be searchable by all users or just a select number
 
-Docker: Container
-
-**L**   inux: The operating system used, which in this case will be alpine
-
-**A**  pache2: The http server to access the website in the first place
-
-**M** ySQL: The database which has all the data of the website
-
-**P**  HP: The scripting language
-
-### Setting up Alpine
-Step 1 is of course to set up alpine in the first place
-
-log in as root
+Access for all users
 ```bash
-root
+mv /dir/of/appimage/<APPNAME>.AppImage /usr/local/bin/
 ```
-To save yourself from struggling, just follow the set up executable
+or
+Access for a specific user
 ```bash
-setup-alpine
+mv /dir/of/appimage/<APPNAME>.AppImage /home/<USERNAMEHERE>/.local/share/applications/
 ```
 
-From here, it guides you through the whole setup process. Here's an example of the commands you should enter
+If you have the **icon** for the application, then place it in the proper location
 
+For All users
 ```bash
-us
-us
-[hostname]
-eth0
-dhcp
-n
-[yourPassword]
-[yourPassword]
-US/Pacific
-none
-chrony
-https://dl-cdn.alpinelinux.org/alpine/v3.20/main
-[name]
-[name]
-[namePassword]
-[namePassword]
-none
-openssh
-sda
-sys
-y
-reboot
-```
-Note: The link for the alpine repository is subject to change. Replace v3.20 with the version that you are running. Verify that the website is working by going there on a gui 
-
-## Installing proper Packages
-
-First, modify /etc/apk/repositories 
-```bash
-vi /etc/apk/repositories
-```
-In there, add the following line
-```bash
-https://dl-cdn.alpinelinux.org/alpine/v3.20/community
+mkdir -p /usr/share/Obsidian/icons/
+mv /dir/of/<ICONNAME>.png /usr/share/Obsidian/icons/
 ```
 
-Save, then proceed to update and upgrade the repositories
-
+For a specific user
 ```bash
-apk update && apk upgrade
+mv /dir/of/<ICONNAME>.png /home/<USERNAMEHERE>/.local/share/icons/
 ```
 
-From here, you can now download docker
+On Debian, the search bar uses **.desktop** files as a kind of detailed shortcut. The location used is under /usr/share/applications/ for all users, but for specific users it also uses /home/\<USERNAMEHERE\>/.local/share/applications/
 
+For all users
 ```bash
-apk add docker
+vim /usr/share/applications/<APPNAME>.desktop
 ```
 
-## Configuring Docker
-
-By default, the service isn't enabled nor started, so enter the following
+Inside of the file, enter the following lines
 
 ```bash
-rc-update add docker default
-openrc --service docker start
+[Desktop Entry]
+Name=<APPNAME>
+Comment=Documentation Application Utilizing Markdown
+Exec=/usr/local/bin/<APPNAME>.AppImage
+Icon=/home/<USERNAMEHERE>/Pictures/<ICONNAME>.png
+Terminal=false
+Type=Application
+Categories=Accessories;
 ```
 
-Now, you could go through the pain and troubleshooting of making your own LAMP stack, or you can just take it from the dockerhub
+For specific users
+```bash
+vim /home/<USERNAMEHERE>/.local/share/applications/<APPNAME>.desktop
+```
+
+Inside of the file, enter the following lines
 
 ```bash
-docker pull fauria/lamp
+[Desktop Entry]
+Name=<APPNAME>
+Comment=Feel free to write anything here
+Exec=/home/<USERNAMEHERE>/.local/share/applications/<APPNAME>.AppImage
+Icon=/home/<USERNAMEHERE>/.local/share/icons/<ICONNAME>.png
+Terminal=false
+Type=Application
+Categories=<SEARCHCATEGORYYOUWANT>;
 ```
 
-```bash
-docker run -itp 80:80 fauria/lamp /bin/bash
-```
+From here, try searching for your application!
 
-## Inside the Container
 
-You'll find yourself in the docker container. 
-From here, you need to start apache2
-
-```bash
-service apache2 start
-```
-
-From here, you can access the website from the original machine's ip
