@@ -4,7 +4,7 @@ date: 2025-08-26
 description: This guide will enable you to search for an AppImage via the search function found in many desktop environments. Tested on Cinnamon, should work for other desktops.
 categories: ['Tutorial']
 draft: false # Change to true to not render the post in on the website
-image: ""
+image: "/blog/image/appsearch.png"
 ---
 
 
