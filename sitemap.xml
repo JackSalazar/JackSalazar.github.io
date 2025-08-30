@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://JackSalazar.github.io/index.html</loc>
-    <lastmod>2025-08-26T16:50:01.246Z</lastmod>
-  </url>
-  <url>
     <loc>https://JackSalazar.github.io/blog/appsearch/index.html</loc>
-    <lastmod>2025-08-26T16:50:01.244Z</lastmod>
-  </url>
-  <url>
-    <loc>https://JackSalazar.github.io/blog/dockerlamp/index.html</loc>
-    <lastmod>2025-08-26T16:50:01.244Z</lastmod>
+    <lastmod>2025-08-30T19:33:25.094Z</lastmod>
   </url>
   <url>
     <loc>https://JackSalazar.github.io/blog/index.html</loc>
-    <lastmod>2025-08-26T16:50:01.246Z</lastmod>
+    <lastmod>2025-08-30T19:33:25.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JackSalazar.github.io/index.html</loc>
+    <lastmod>2025-08-30T19:33:25.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JackSalazar.github.io/blog/dockerlamp/index.html</loc>
+    <lastmod>2025-08-30T19:33:25.094Z</lastmod>
   </url>
 </urlset>

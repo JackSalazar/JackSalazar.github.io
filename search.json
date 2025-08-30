@@ -1,17 +1,24 @@
 [
   {
+    "objectID": "blog/appsearch/index.html",
+    "href": "blog/appsearch/index.html",
+    "title": "How to Add an AppImage to Linux Desktop Search",
+    "section": "",
+    "text": "Preface\nWhen using Linux, you may come across an application with the extension .AppImage. It is an all in one application that works on any Linux distro, but there are a couple of issues. One of which is that the app won’t automatically show up in desktop searches. Luckily, all it takes is 5 minutes to fix this.\n\n\nTutorial\nThe first step is optional, but good practice for organizing files. Move the .AppImage from your Downloads folder to the correct location. This location varies based on if you want the application to be searchable by all users or just a select number\nAccess for all users\nmv /dir/of/appimage/&lt;APPNAME&gt;.AppImage /usr/local/bin/\nor Access for a specific user\nmv /dir/of/appimage/&lt;APPNAME&gt;.AppImage /home/&lt;USERNAMEHERE&gt;/.local/share/applications/\nIf you have the icon for the application, then place it in the proper location\nFor All users\nmkdir -p /usr/share/Obsidian/icons/\nmv /dir/of/&lt;ICONNAME&gt;.png /usr/share/Obsidian/icons/\nFor a specific user\nmv /dir/of/&lt;ICONNAME&gt;.png /home/&lt;USERNAMEHERE&gt;/.local/share/icons/\nOn Debian, the search bar uses .desktop files as a kind of detailed shortcut. The location used is under /usr/share/applications/ for all users, but for specific users it also uses /home/&lt;USERNAMEHERE&gt;/.local/share/applications/\nFor all users\nvim /usr/share/applications/&lt;APPNAME&gt;.desktop\nInside of the file, enter the following lines\n[Desktop Entry]\nName=&lt;APPNAME&gt;\nComment=Documentation Application Utilizing Markdown\nExec=/usr/local/bin/&lt;APPNAME&gt;.AppImage\nIcon=/home/&lt;USERNAMEHERE&gt;/Pictures/&lt;ICONNAME&gt;.png\nTerminal=false\nType=Application\nCategories=Accessories;\nFor specific users\nvim /home/&lt;USERNAMEHERE&gt;/.local/share/applications/&lt;APPNAME&gt;.desktop\nInside of the file, enter the following lines\n[Desktop Entry]\nName=&lt;APPNAME&gt;\nComment=Feel free to write anything here\nExec=/home/&lt;USERNAMEHERE&gt;/.local/share/applications/&lt;APPNAME&gt;.AppImage\nIcon=/home/&lt;USERNAMEHERE&gt;/.local/share/icons/&lt;ICONNAME&gt;.png\nTerminal=false\nType=Application\nCategories=&lt;SEARCHCATEGORYYOUWANT&gt;;\nFrom here, try searching for your application!"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "How to Add an AppImage to Linux Desktop Search\n\n\n\nTutorial\n\n\n\nThis guide will enable you to search for an AppImage via the search function found in many desktop environments. Tested on Cinnamon, should work for other desktops.\n\n\n\n\n\n\nAug 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDockerized LAMP Stack\n\n\n\nTutorial\n\n\n\nThis will guide you in creating a LAMP Stack inside Docker from scratch.\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
     "text": "This is a collection of some projects I’ve worked on, alongside experiences going through my cyber security and programming journey.\nEnjoy :P"
-  },
-  {
-    "objectID": "blog/appsearch/index.html",
-    "href": "blog/appsearch/index.html",
-    "title": "How to Add an AppImage to Linux Desktop Search",
-    "section": "",
-    "text": "Preface\nWhen using Linux, you may come across an application with the extension .AppImage. It is an all in one application that works on any Linux distro, but there are a couple of issues. One of which is that the app won’t automatically show up in desktop searches. Luckily, all it takes is 5 minutes to fix this.\n\n\nMethod 1: Terminal\nThe first step is optional, but good practice for organizing files. Move the .AppImage from your Downloads folder to the correct location. This location varies based on if you want the application to be searchable by all users or just a select number\nAccess for all users\nmv /dir/of/appimage/&lt;APPNAME&gt;.AppImage /usr/local/bin/\nor Access for a specific user\nmv /dir/of/appimage/&lt;APPNAME&gt;.AppImage /home/&lt;USERNAMEHERE&gt;/.local/share/applications/\nIf you have the icon for the application, then place it in the proper location\nFor All users\nmkdir -p /usr/share/Obsidian/icons/\nmv /dir/of/&lt;ICONNAME&gt;.png /usr/share/Obsidian/icons/\nFor a specific user\nmv /dir/of/&lt;ICONNAME&gt;.png /home/&lt;USERNAMEHERE&gt;/.local/share/icons/\nOn Debian, the search bar uses .desktop files as a kind of detailed shortcut. The location used is under /usr/share/applications/ for all users, but for specific users it also uses /home/&lt;USERNAMEHERE&gt;/.local/share/applications/\nFor all users\nvim /usr/share/applications/&lt;APPNAME&gt;.desktop\nInside of the file, enter the following lines\n[Desktop Entry]\nName=&lt;APPNAME&gt;\nComment=Documentation Application Utilizing Markdown\nExec=/usr/local/bin/&lt;APPNAME&gt;.AppImage\nIcon=/home/&lt;USERNAMEHERE&gt;/Pictures/&lt;ICONNAME&gt;.png\nTerminal=false\nType=Application\nCategories=Accessories;\nFor specific users\nvim /home/&lt;USERNAMEHERE&gt;/.local/share/applications/&lt;APPNAME&gt;.desktop\nInside of the file, enter the following lines\n[Desktop Entry]\nName=&lt;APPNAME&gt;\nComment=Feel free to write anything here\nExec=/home/&lt;USERNAMEHERE&gt;/.local/share/applications/&lt;APPNAME&gt;.AppImage\nIcon=/home/&lt;USERNAMEHERE&gt;/.local/share/icons/&lt;ICONNAME&gt;.png\nTerminal=false\nType=Application\nCategories=&lt;SEARCHCATEGORYYOUWANT&gt;;\nFrom here, try searching for your application!"
   },
   {
     "objectID": "blog/dockerlamp/index.html",
@@ -40,12 +47,5 @@
     "title": "Dockerized LAMP Stack",
     "section": "Inside the Container",
     "text": "Inside the Container\nYou’ll find yourself in the docker container. From here, you need to start apache2\nservice apache2 start\nFrom here, you can access the website from the original machine’s ip"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "How to Add an AppImage to Linux Desktop Search\n\n\n\nTutorial\n\n\n\nThis guide will enable you to search for an AppImage via the search function found in many desktop environments. Tested on Cinnamon, should work for other desktops.\n\n\n\n\n\n\nAug 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDockerized LAMP Stack\n\n\n\nTutorial\n\n\n\nThis will guide you in creating a LAMP Stack inside Docker from scratch.\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
