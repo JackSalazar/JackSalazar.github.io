@@ -11,7 +11,7 @@ image: "/blog/images/appsearch.png"
 ### Preface
 When using Linux, you may come across an application with the extension .AppImage. It is an all in one application that works on any Linux distro, but there are a couple of issues. One of which is that the app won't automatically show up in desktop searches. Luckily, all it takes is 5 minutes to fix this.
 
-### Method 1: Terminal
+### Tutorial
 
 The first step is optional, but good practice for organizing files. Move the **.AppImage** from your Downloads folder to the correct location. This location varies based on if you want the application to be searchable by all users or just a select number
 
@@ -77,5 +77,4 @@ Categories=<SEARCHCATEGORYYOUWANT>;
 ```
 
 From here, try searching for your application!
-
 
